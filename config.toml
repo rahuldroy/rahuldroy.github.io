@@ -1,0 +1,65 @@
+baseurl       = "https://rahuldroy.github.io/"
+disableKinds  = ["RSS"]
+languageCode  = "en-us"
+paginate      = 10
+theme         = "hello-friend-ng"
+title         = "Rahul Datta Roy"
+
+[author]
+  name = "Rahul Datta Roy"
+
+[languages]
+  [languages.en]
+    copyright      = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    keywords       = ""
+    readOtherPosts = "Read other posts"
+    subtitle       = "@rahuldroy"
+    title          = "Rahul Datta Roy"
+
+    [languages.en.params.logo]
+      logoHomeLink = "/"
+      logoText      = "/Users/rahuldroy $"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  dateformShort   = "Jan 2"
+  
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Footer updates
+  footerLeft  = "Powered by <a href=\"https://gohugo.io\" target=\"_blank\">Hugo</a>"
+  footerRight = "Made with &#10084; by <a href=\"https://github.com/rhazdon\" target=\"_blank\">Djordje Atlialp</a>"
+
+  # Subtitle for home
+  homeSubtitle = "Software Engineer // DevOps // Husband // Gamer"
+
+  # Metadata mostly used in document's head
+  description = "Rahul Datta Roy"
+  images      = [""]
+  keywords    = "homepage, blog"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/rahuldroy"
+
+[[params.social]]
+  name = "gitlab"
+  url = "https://gitlab.com/rahuldroy"
+
+[[params.social]]
+  name = "hackerrank"
+  url = "https://hackerrank.com/rahuldroy"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/rahul-datta-roy-b3464a3a/"
+
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/rahuldroy/"
