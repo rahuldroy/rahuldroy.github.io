@@ -1,9 +1,9 @@
-baseurl       = "https://rahuldroy.github.io/"
-disableKinds  = ["RSS"]
-languageCode  = "en-us"
-paginate      = 10
-theme         = "hello-friend-ng"
-title         = "Rahul Datta Roy"
+baseurl      = "https://rahuldroy.github.io/"
+disableKinds = ["RSS"]
+languageCode = "en-us"
+paginate     = 10
+theme        = "hello-friend-ng"
+title        = "Rahul Datta Roy"
 
 [author]
   name = "Rahul Datta Roy"
@@ -18,7 +18,7 @@ title         = "Rahul Datta Roy"
 
     [languages.en.params.logo]
       logoHomeLink = "/"
-      logoText      = "/Users/rahuldroy $"
+      logoText     = "/Users/rahuldroy $"
 
 [params]
   dateform        = "Jan 2, 2006"
